@@ -4,3 +4,8 @@ function solution(seoul) {
             return `김서방은 ${i}에 있다`;
     }
 }
+
+// function findKim(seoul){
+//   var idx = seoul.indexOf('Kim');
+//   return "김서방은 " + idx + "에 있다";
+// }
