@@ -5,3 +5,9 @@ function solution(my_string) {
     }
     return reverse
 }
+
+
+//split으로 나눠서 매서드로 해결하는 방법
+// function solution(my_string) {
+//     return my_string.split('').reverse().join('');
+// }
