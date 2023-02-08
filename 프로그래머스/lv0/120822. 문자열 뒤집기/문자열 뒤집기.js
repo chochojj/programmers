@@ -11,3 +11,9 @@ function solution(my_string) {
 // function solution(my_string) {
 //     return my_string.split('').reverse().join('');
 // }
+
+//stread 문법으로 푸는 방법
+// function solution(my_string) {
+//     var answer = [...my_string].reverse().join("");
+//     return answer;
+// }
