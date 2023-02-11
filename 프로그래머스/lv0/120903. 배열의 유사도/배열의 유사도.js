@@ -9,3 +9,12 @@ function solution(s1, s2) {
     }
     return sum
 }
+
+
+
+//includes()를 사용하기
+// function solution(s1, s2) {
+//     let count = 0;
+//     for (let v of s1) if (s2.includes(v)) count++;
+//     return count;
+// }
