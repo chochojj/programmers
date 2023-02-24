@@ -4,3 +4,9 @@ function solution(n, t) {
     }
     return n
 }
+
+// 제곱 매서드 사용
+// function solution(n, t) {
+
+//     return n*Math.pow(2,t);
+// }
