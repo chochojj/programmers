@@ -10,3 +10,9 @@ function solution(n, t) {
 
 //     return n*Math.pow(2,t);
 // }
+
+
+// 왼쪽 시프트 (<<) 라는 게 있다고 함
+// function solution(n, t) {
+//   return n << t;
+// }
