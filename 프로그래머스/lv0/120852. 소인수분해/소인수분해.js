@@ -1,16 +1,15 @@
 function solution(n) {
-  let result = [];
-  let divisor = 2;
-  
-  while (n >= 2) {
-    if (n % divisor === 0) {
-      result.push(divisor)
-      n = n / divisor;
+    var answer = [];
+
+    for(let i = 2; i <= n; i++) {
+
+        while (n % i === 0) {
+
+            n = n / i;
+            answer.push(i);
+
+        }
     }
-    
-     else divisor ++;
-    
-  }
-  
-  return [...new Set(result)];
+
+    return [...new Set(answer)];
 }
