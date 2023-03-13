@@ -9,3 +9,6 @@ function solution(my_string) {
 // function solution(my_string) {
 //     return [...new Set(my_string)].join('');
 // }
+
+// 인덱스를 조회해서 바로 바꾸기
+// var solution=s=>[...s].filter((c,i)=>s.indexOf(c)==i).join('')
